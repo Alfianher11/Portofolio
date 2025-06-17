@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: 'Times New Roman', Times, serif;
+  scroll-behavior: smooth;
+}
+
+/*---------------BAGIAN NAVBAR-------------*/
+.Navbar{
+    background-color: #001f3f;
+    color: white;
+    padding: 15px 30px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+
+.logo-container span {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white; /* warna emas */
+    margin-left: 10px;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+}
+
+.logo{
+    width: 40px ;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.nav-links{
+    display: flex;
+    gap: 20px;
+}
